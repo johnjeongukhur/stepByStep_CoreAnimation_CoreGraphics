@@ -70,8 +70,8 @@
 				562D7DF6289F7B3C00C93A06 /* Common */,
 				56C0B299289AB3CE00234BF2 /* stepByStep_CoreAnimation_CoreGraphicsApp.swift */,
 				56C0B29B289AB3CE00234BF2 /* ContentView.swift */,
-				562D7DF4289F755400C93A06 /* animation_2.swift */,
 				562D7DF2289E8DDD00C93A06 /* animation_1.swift */,
+				562D7DF4289F755400C93A06 /* animation_2.swift */,
 				56C0B29D289AB3D200234BF2 /* Assets.xcassets */,
 				56C0B29F289AB3D200234BF2 /* Preview Content */,
 			);
