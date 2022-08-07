@@ -12,20 +12,26 @@ Let's start from simple one.
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
         NavigationView {
-            NavigationLink(destination: animation_1()) {
-                Text("Move to animation_1")
-            }.buttonStyle(PlainButtonStyle())
+            ScrollView(.vertical, showsIndicators: false) {
+                VStack(spacing: 30) {
+                    NavigationLink(destination: animation_1()) {
+                        Text("Move to animation_1")
+                    }.buttonStyle(PlainButtonStyle())
+                    
+                    NavigationLink(destination: animation_2()) {
+                        Text("Move to animation_2")
+                    }.buttonStyle(PlainButtonStyle())
+                    
+                    Spacer()
+                }
+            }
         }
-        NavigationView {
-            NavigationLink(destination: animation_2()) {
-                Text("Move to animation_2")
-            }.buttonStyle(PlainButtonStyle())
-        }
-
         
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
