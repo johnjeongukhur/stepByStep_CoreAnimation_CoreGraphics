@@ -20,8 +20,13 @@ struct animation_3: View {
                     
                     Image(systemName: "drop.fill")
                         .resizable()
+                        .renderingMode(.template)
                         .aspectRatio(contentMode: .fit)
+                        .foregroundColor(.white)
+                    // Streching in X Axis
+                        .scaleEffect(x: 1.1, y: 1)
                     
+                    // Wave form shape
                 }
                 .frame(width: size.width, height: size.height, alignment: .center)
             }
@@ -36,6 +41,11 @@ struct animation_3: View {
     
     
 }
+
+//struct WaterWafe: Shape {
+//
+//}
+
 
 struct animation_3_Previews: PreviewProvider {
     static var previews: some View {
