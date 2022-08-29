@@ -13,11 +13,12 @@ struct animation_4: View {
     
     // Initial position
     @State var positionX = -150
+    @State var objectColor = Color(.blue)
     
     var body: some View {
         VStack(alignment: .center) {
             Rectangle()
-                .fill(.purple)
+                .fill(objectColor)
                 .frame(width: 50, height: 50)
                 .rotationEffect(.degrees(rotation))
                 .scaleEffect(CGFloat(scaleXY))
@@ -27,6 +28,7 @@ struct animation_4: View {
                     rotation += 360
                     scaleXY += 1.1
                     positionX += 250
+                    objectColor = .purple
                 }
         }
     }
