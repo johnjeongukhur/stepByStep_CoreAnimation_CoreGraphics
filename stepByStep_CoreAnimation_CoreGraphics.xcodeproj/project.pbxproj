@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		56056EA528A2A416008F08F4 /* color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56056EA428A2A416008F08F4 /* color.swift */; };
+		5609E75728BCEF7000F391DE /* animation_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5609E75628BCEF6F00F391DE /* animation_4.swift */; };
 		562D7DF3289E8DDD00C93A06 /* animation_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D7DF2289E8DDD00C93A06 /* animation_1.swift */; };
 		562D7DF5289F755400C93A06 /* animation_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D7DF4289F755400C93A06 /* animation_2.swift */; };
 		562D7DF8289F7B6100C93A06 /* font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D7DF7289F7B6100C93A06 /* font.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		56056EA428A2A416008F08F4 /* color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = color.swift; sourceTree = "<group>"; };
+		5609E75628BCEF6F00F391DE /* animation_4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animation_4.swift; sourceTree = "<group>"; };
 		562D7DF2289E8DDD00C93A06 /* animation_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animation_1.swift; sourceTree = "<group>"; };
 		562D7DF4289F755400C93A06 /* animation_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animation_2.swift; sourceTree = "<group>"; };
 		562D7DF7289F7B6100C93A06 /* font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = font.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				562D7DF2289E8DDD00C93A06 /* animation_1.swift */,
 				562D7DF4289F755400C93A06 /* animation_2.swift */,
 				562D7DF928A1691E00C93A06 /* animation_3.swift */,
+				5609E75628BCEF6F00F391DE /* animation_4.swift */,
 				56C0B29D289AB3D200234BF2 /* Assets.xcassets */,
 				56C0B29F289AB3D200234BF2 /* Preview Content */,
 			);
@@ -169,6 +172,7 @@
 				56C0B29C289AB3CE00234BF2 /* ContentView.swift in Sources */,
 				56C0B29A289AB3CE00234BF2 /* stepByStep_CoreAnimation_CoreGraphicsApp.swift in Sources */,
 				562D7DF8289F7B6100C93A06 /* font.swift in Sources */,
+				5609E75728BCEF7000F391DE /* animation_4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
