@@ -14,6 +14,7 @@ struct animation_4: View {
     // Initial position
     @State var positionX = -150
     @State var objectColor = Color(.blue)
+    @State var transparency = 0.0
     
     var body: some View {
         VStack(alignment: .center) {
@@ -21,6 +22,7 @@ struct animation_4: View {
                 .fill(objectColor)
                 .frame(width: 50, height: 50)
                 .rotationEffect(.degrees(rotation))
+                .opacity(transparency)
                 .scaleEffect(CGFloat(scaleXY))
                 .offset(x: CGFloat(positionX))
                 .animation(Animation.easeInOut(duration: 3).repeatForever(autoreverses: true).speed(4))
@@ -28,7 +30,8 @@ struct animation_4: View {
                     rotation += 360
                     scaleXY += 1.1
                     positionX += 250
-                    objectColor = .purple
+                    objectColor = .red
+                    transparency = 1
                 }
         }
     }
