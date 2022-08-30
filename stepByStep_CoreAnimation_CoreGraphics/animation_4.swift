@@ -15,10 +15,11 @@ struct animation_4: View {
     @State var positionX = -150
     @State var objectColor = Color(.blue)
     @State var transparency = 0.0
+    @State var roundCorner = 0
     
     var body: some View {
         VStack(alignment: .center) {
-            Rectangle()
+            RoundedRectangle(cornerRadius: CGFloat(roundCorner))
                 .fill(objectColor)
                 .frame(width: 50, height: 50)
                 .rotationEffect(.degrees(rotation))
@@ -32,6 +33,7 @@ struct animation_4: View {
                     positionX += 250
                     objectColor = .red
                     transparency = 1
+                    roundCorner = 25
                 }
         }
     }
