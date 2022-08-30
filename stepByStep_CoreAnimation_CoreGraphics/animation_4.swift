@@ -4,6 +4,12 @@
 //
 //  Created by John Hur on 2022/08/29.
 //
+/*
+ Udemy
+ SwiftUI, Animation Foundations: Fundamentals
+ Section 4: Learn Core Animation Techniques with SwiftUI
+ */
+
 
 import SwiftUI
 
