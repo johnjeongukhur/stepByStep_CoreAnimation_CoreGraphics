@@ -32,7 +32,14 @@ struct ContentView: View {
                     NavigationLink(destination: animation_4()) {
                         Text("Move to animation_4")
                     }.buttonStyle(PlainButtonStyle())
-
+                    
+                    NavigationLink(destination: animation_5()) {
+                        Text("Move to animation_5")
+                    }.buttonStyle(PlainButtonStyle())
+                    
+                    NavigationLink(destination: animation_6()) {
+                        Text("Move to animation_6")
+                    }.buttonStyle(PlainButtonStyle())
                     
                     Spacer()
                 }
