@@ -15,6 +15,10 @@
 		562D7DF5289F755400C93A06 /* animation_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D7DF4289F755400C93A06 /* animation_2.swift */; };
 		562D7DF8289F7B6100C93A06 /* font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D7DF7289F7B6100C93A06 /* font.swift */; };
 		562D7DFA28A1691F00C93A06 /* animation_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D7DF928A1691E00C93A06 /* animation_3.swift */; };
+		56427B7228D8A0D300ABD54C /* MorphingCircleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56427B7128D8A0D300ABD54C /* MorphingCircleShape.swift */; };
+		5658BFEE28D6EE2200DE3BFF /* AnimatableVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5658BFED28D6EE2200DE3BFF /* AnimatableVector.swift */; };
+		5695E38F28D707DB00BB8D40 /* animatableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5695E38E28D707DB00BB8D40 /* animatableData.swift */; };
+		5695E39128D708D500BB8D40 /* CGExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5695E39028D708D500BB8D40 /* CGExtensions.swift */; };
 		56C0B29A289AB3CE00234BF2 /* stepByStep_CoreAnimation_CoreGraphicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0B299289AB3CE00234BF2 /* stepByStep_CoreAnimation_CoreGraphicsApp.swift */; };
 		56C0B29C289AB3CE00234BF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C0B29B289AB3CE00234BF2 /* ContentView.swift */; };
 		56C0B29E289AB3D200234BF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56C0B29D289AB3D200234BF2 /* Assets.xcassets */; };
@@ -30,6 +34,10 @@
 		562D7DF4289F755400C93A06 /* animation_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animation_2.swift; sourceTree = "<group>"; };
 		562D7DF7289F7B6100C93A06 /* font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = font.swift; sourceTree = "<group>"; };
 		562D7DF928A1691E00C93A06 /* animation_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animation_3.swift; sourceTree = "<group>"; };
+		56427B7128D8A0D300ABD54C /* MorphingCircleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphingCircleShape.swift; sourceTree = "<group>"; };
+		5658BFED28D6EE2200DE3BFF /* AnimatableVector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableVector.swift; sourceTree = "<group>"; };
+		5695E38E28D707DB00BB8D40 /* animatableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animatableData.swift; sourceTree = "<group>"; };
+		5695E39028D708D500BB8D40 /* CGExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGExtensions.swift; sourceTree = "<group>"; };
 		56C0B296289AB3CD00234BF2 /* stepByStep_CoreAnimation_CoreGraphics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stepByStep_CoreAnimation_CoreGraphics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56C0B299289AB3CE00234BF2 /* stepByStep_CoreAnimation_CoreGraphicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stepByStep_CoreAnimation_CoreGraphicsApp.swift; sourceTree = "<group>"; };
 		56C0B29B289AB3CE00234BF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +62,10 @@
 			children = (
 				562D7DF7289F7B6100C93A06 /* font.swift */,
 				56056EA428A2A416008F08F4 /* color.swift */,
+				5658BFED28D6EE2200DE3BFF /* AnimatableVector.swift */,
+				5695E38E28D707DB00BB8D40 /* animatableData.swift */,
+				5695E39028D708D500BB8D40 /* CGExtensions.swift */,
+				56427B7128D8A0D300ABD54C /* MorphingCircleShape.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -172,7 +184,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				56056EA528A2A416008F08F4 /* color.swift in Sources */,
+				5658BFEE28D6EE2200DE3BFF /* AnimatableVector.swift in Sources */,
 				562D7DFA28A1691F00C93A06 /* animation_3.swift in Sources */,
+				5695E39128D708D500BB8D40 /* CGExtensions.swift in Sources */,
 				562D7DF3289E8DDD00C93A06 /* animation_1.swift in Sources */,
 				562D7DF5289F755400C93A06 /* animation_2.swift in Sources */,
 				56C0B29C289AB3CE00234BF2 /* ContentView.swift in Sources */,
@@ -180,7 +194,9 @@
 				5609E75928BE4C0C00F391DE /* animation_5.swift in Sources */,
 				5609E75B28BE52AA00F391DE /* animation_6.swift in Sources */,
 				562D7DF8289F7B6100C93A06 /* font.swift in Sources */,
+				56427B7228D8A0D300ABD54C /* MorphingCircleShape.swift in Sources */,
 				5609E75728BCEF7000F391DE /* animation_4.swift in Sources */,
+				5695E38F28D707DB00BB8D40 /* animatableData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
